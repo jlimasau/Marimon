@@ -1,0 +1,132 @@
+.marimon{
+	font-family: 'Chewy', cursive;
+}
+
+.menu {
+	float:right;
+}
+
+#messagecontainer{
+	overflow: auto;
+	margin: all;
+	height: 80%;
+	min-width: 100%;
+}
+
+
+/*.answer{
+	float: right;
+	padding-right: 44px;
+} */
+
+.answer span {
+ 	float: right;
+ 	margin-left: 70px;
+ 	margin-top:50px;
+ 	text-align: right;
+ 	padding-right:20px;
+}
+
+.chatbox {
+ 	display: block;
+ 	height: 90px;
+ 	border-spacing: 20px;
+ 	margin: auto;
+
+}
+
+.chat{
+	font-size:100%;
+}
+
+
+.hamburger{
+	float:right;
+	padding:10px;
+}
+
+.back{
+	padding:10px;
+}
+
+.date {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+.record{
+	position:absolute;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+
+.plus-entry{
+	position: absolute;
+	right: 20px;
+	bottom: 60px;
+	    padding: 4px;
+   
+    border: 4px;
+   
+}
+
+.entry{
+	float;
+	position: absolute;
+	bottom: 0px;
+	min-width: 80%;
+	    padding: 4px;
+   
+    border: 4px;
+   
+}
+
+#breathingMarimon {
+
+   width: 40px;
+    padding: 4px;
+   
+    border: 4px;
+   
+    
+    animation: breathing 8s ease-out infinite normal;
+        border-radius: 3px;
+    text-align: center;  
+    
+
+
+       
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(.9);
+ 
+  }
+
+  25% {
+    -webkit-transform: scale(1.2);
+   
+  }
+
+  50% {
+  	-webkit-transform: scale(1.2);
+  }
+
+  75% {
+    -webkit-transform: scale(.9);
+
+  }
+
+
+  100% {
+  	-webkit-transform: scale(.9);
+  }
+}
+
+
+}
