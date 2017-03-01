@@ -84,6 +84,13 @@
    
 }
 
+.info{
+	overflow: auto;
+	margin: all;
+	height: 80%;
+	min-width: 100%;
+}
+
 #breathingMarimon {
 
    width: 40px;

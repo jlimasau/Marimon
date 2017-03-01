@@ -13,6 +13,12 @@ var k = 0;
 function initializePage() {
 
 	$("#messagecontainer").animate({ scrollTop: '100000000' }, "slow");
+			$("#inputMessage").keyup(function(event){
+    	if(event.keyCode == 13){
+
+        	$("#sendBtn").click();
+        }
+    });
 $("#sendBtn").click(function(event) {
 		event.preventDefault();
 
@@ -80,6 +86,7 @@ $("#sendBtn").click(function(event) {
 		if (k>0){
 		$('#messagecontainer img').last().remove();
 		$('#messagecontainer').append(picarray[picarray.length-1] + ">");
+		$('chatbox:last').before('<li>New item</li>');
 		}k++
 		pic = "<img src=images/" + num + ".png"
 
